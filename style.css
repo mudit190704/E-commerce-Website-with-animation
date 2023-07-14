@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap')
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-text-color: #183b56;
+    --primary-text-color: #577592;
+    --accent-color: #ed2276;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    color:var(--primary-text-color);
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+p {
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.25rem;
+    color:var(--secondary-taxt-color);
+    line-height: 1.8rem;
+
+
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.hover-links{
+    color:var(--primary-text-color);
+}
+.hover-links:hover{
+    color: var(--accent-color);
+
+}
+ul{
+    list-style-type: none;
+   
+}
+.primary-button{
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 20px;
+    box-shadow:  0 0 2px var(--secondary-taxt-color);
+    transform: 0.3s ease-out;
+
+}
+.primary-button:hover{
+    background-color: var(--accent-color-dark);
+}
+.small-bold-text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+.top-banner {
+    background-color: rgba(25, 27, 27, 0.4);
+    background-image: url(asset\ 38.jpeg);
+}
+.banner-text{
+    color: rgb(173, 21, 21);
+    padding: 15px 30px;
+    text-align: center;
+}
+.main-nav{
+    
+}
+nav-links{
+    flex-basis: 730px;
+
+}
+.nav-links ul {
+    justify-content: end;
+    gap: 50px; 
+}
+.nav-toggle{
+    display: none;
+}
+header{
+    padding: 50px var(--padding-inline-section ) 0;
+}
+.header-section{
+    justify-content: center;
+    gap: 35px;
+}
+.header-left h1{
+    margin-top: 20px;
+}
+.header-right img{
+    width: 720px;
+
+}
+.h{
+   
+    background-color: aqua !important;
+    border-radius: 3px;
+}
+.Newsletter{
+    background-color: gray;
+}
+.newsletter{
+    text-align: center;
+    color: aqua;
+    padding-inline: auto;
+    height: 300px;
+}
+.sytle{
+    color: var(--accent-color-dark);
+}
+.contact{
+    text-align: center;
+    background-color: aquamarine;
+    border-top: var(--accent-color);
+}
